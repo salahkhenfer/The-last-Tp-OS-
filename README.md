@@ -2,6 +2,10 @@
 TP EX5 Final
 
 
+#### the object of this Tp :
+it is explaine the process synchronization i  will expline this using example from life  :
+ - Library book checkout: Borrowing a book requires accessing the shared resource (the book) in a controlled manner. Librarians use a system like a card catalog or computer log to ensure only one person borrows a specific book at a time, preventing conflicts and lost books
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
