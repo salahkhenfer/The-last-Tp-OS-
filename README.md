@@ -103,9 +103,15 @@ pthread_mutex_t book_mutex[NUM_BOOKS];
 
 - the output of this code like this : 
 ```
-    for (int i = 0; i < NUM_BOOKS; ++i) {
-        pthread_mutex_destroy(&book_mutex[i]);
-    }
+Person 2 is browsing...
+Person 3 is browsing...
+Person 1 is browsing...
+Person 1 is borrowing Book 0.
+Person 3 is borrowing Book 1.
+Person 3 has returned Book 1.
+Person 1 has returned Book 0.
+Person 2 is borrowing Book 0.
+Person 2 has returned Book 0.
 
 ```
 
